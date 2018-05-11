@@ -33,4 +33,4 @@ Adding new Riddles.io competitions is relatively easy (compared to 1.x it's a br
 11. Add the competition to `src/competitions/competitions.js`.
 
 ## Pull requests
-Just one thing about pull requests: send them to the `development` branch.
+Just one thing about pull requests: send them to the `develop` branch.

@@ -60,7 +60,9 @@ typings/
 # We use yarn
 package-lock.json
 
-# Output of electron-builder
+# Build output
 dist/
 
+# Jetbrains IDE's
 .idea/
+*.iml

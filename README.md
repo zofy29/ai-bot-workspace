@@ -1,6 +1,15 @@
 # AI Bot Workspace
 An Electron application which includes testing workspaces for most Riddles.io competitions.
 
+## 3.0.0
+This branch contains the work-in-progress version of 3.0.0. These are my plans:
+- A better, more consistent codebase that'll be easier to maintain later-on. 3.0.0 will use TypeScript and Vue to help achieve that.
+- A redesign to give it a better look. I'm planning on going with a Material Design theme with [Vuetify](https://vuetifyjs.com/en/). I also want it to be possible to toggle a dark mode.
+- Turn-by-turn logs (somewhat like CodinGame does). Requires a match wrapper change so it can be configured to give output as an array instead of a string.
+- Round-robin tournaments between >2 bots. This has been suggested by Pruzelius a long time ago, and I said that I would be working on it, but I never got to a full implementation.
+- Keyboard shortcuts to perform common tasks like running a match. Maybe they will be configurable, maybe not.
+- Making it easier to add new competitions. Currently this process is quite cumbersome, and if the match viewer is updated it all has to be done again. It should be possible to automate this when you know a match id of the competition and a link to the GitHub engine repository. This could even be done by the application the first time a competition is opened (I got a working prototype on how to transform the matchviewer's resources programmatically to make them work offline). With that also comes a periodic check for updates, so there is no longer a need for application updates when a competition match viewer or engine is updated.
+
 ## Screenshots
 ### Game of Life and Death competition window
 ![Competition](https://i.imgur.com/LZgKIpF.png)
