@@ -4,7 +4,7 @@ import * as url from 'url';
 
 const isDevelopment = process.env.NODE_ENV !== 'production';
 
-let mainWindow: BrowserWindow | null;
+let mainWindow: BrowserWindow;
 
 function createMainWindow(): BrowserWindow {
   const window: BrowserWindow = new BrowserWindow({
