@@ -1,0 +1,27 @@
+{
+  "id": "four-in-a-row",
+  "name": "Four In A Row",
+  "description": "Create a row of four chips before your opponent does, in this simple yet exciting game!",
+  "url": "https://playground.riddles.io/competitions/ai-block-battle",
+  "configuration": {
+    "playerCount": 2,
+    "hasSeed": false,
+    "resources": {
+      "matchViewer": {
+        "type": "match",
+        "matchId": "285ae86d-b776-4676-9a1f-c2a6c65d7ef8",
+        "backgroundColor": "#d9e5f7"
+      },
+      "engine": {
+        "type": "github",
+        "repository": "riddlesio/connect-four-engine"
+      }
+    },
+    "matchWrapperConfiguration": {
+      "maxTimebankDefault": 10000,
+      "timePerMoveDefault": 200,
+      "maxTimeoutsDefault": 0
+    },
+    "configurationItems": []
+  }
+}

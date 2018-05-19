@@ -1,0 +1,33 @@
+{
+  "id": "ai-block-battle",
+  "name": "AI Block Battle",
+  "description": "Match the blocks, clear the lines and fill your opponent's field with garbage!",
+  "url": "https://playground.riddles.io/competitions/ai-block-battle",
+  "configuration": {
+    "playerCount": 2,
+    "hasSeed": false,
+    "resources": {
+      "matchViewer": {
+        "type": "match",
+        "matchId": "7fd13636-0484-457c-8dd2-28c43dd7105c",
+        "backgroundColor": "#112338"
+      },
+      "engine": {
+        "type": "github",
+        "repository": "riddlesio/block-battle-engine"
+      }
+    },
+    "matchWrapperConfiguration": {
+      "maxTimebankDefault": 10000,
+      "timePerMoveDefault": 200,
+      "maxTimeoutsDefault": 0
+    },
+    "configurationItems": [
+      {
+        "id": "maxRounds",
+        "type": "integer",
+        "description": "Max amount of rounds"
+      }
+    ]
+  }
+}

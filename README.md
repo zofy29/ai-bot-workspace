@@ -3,7 +3,7 @@ An Electron application which includes testing workspaces for most Riddles.io co
 
 ## 3.0.0
 This branch contains the work-in-progress version of 3.0.0. These are my plans:
-- A better, more consistent codebase that'll be easier to maintain later-on. 3.0.0 will use TypeScript and Vue to help achieve that.
+- A better, more consistent codebase that'll be easier to maintain later-on. 3.0.0 will use Vue and strict linting rules to help achieve that.
 - A redesign to give it a better look. I'm planning on going with a Material Design theme with [Vuetify](https://vuetifyjs.com/en/). I also want it to be possible to toggle a dark mode.
 - Turn-by-turn logs (somewhat like CodinGame does). Requires a match wrapper change so it can be configured to give output as an array instead of a string.
 - Round-robin tournaments between >2 bots. This has been suggested by Pruzelius a long time ago, and I said that I would be working on it, but I never got to a full implementation.

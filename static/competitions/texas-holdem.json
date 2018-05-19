@@ -1,0 +1,33 @@
+{
+  "id": "texas-holdem",
+  "name": "Texas Hold 'em",
+  "description": "In this poker variant bots will go heads up against each other!",
+  "url": "https://playground.riddles.io/competitions/texas-hold-%27em",
+  "configuration": {
+    "playerCount": 2,
+    "hasSeed": true,
+    "resources": {
+      "matchViewer": {
+        "type": "match",
+        "matchId": "3677d577-26c2-416d-9687-86ccf2d52e15",
+        "backgroundColor": "#abd9f5"
+      },
+      "engine": {
+        "type": "github",
+        "repository": "riddlesio/poker-engine-java"
+      }
+    },
+    "matchWrapperConfiguration": {
+      "maxTimebankDefault": 2000,
+      "timePerMoveDefault": 100,
+      "maxTimeoutsDefault": 0
+    },
+    "configurationItems": [
+      {
+        "id": "initialStack",
+        "type": "integer",
+        "description": "Initial stack"
+      }
+    ]
+  }
+}

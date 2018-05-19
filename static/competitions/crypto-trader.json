@@ -1,0 +1,53 @@
+{
+  "id": "crypto-trader",
+  "name": "Crypto Trader",
+  "description": "Create a crypto-trading bot and maximize profits by using the best trading strategies!",
+  "url": "https://playground.riddles.io/competitions/crypto-trader",
+  "configuration": {
+    "playerCount": 1,
+    "hasSeed": false,
+    "resources": {
+      "matchViewer": {
+        "type": "match",
+        "matchId": "a8af8ae8-147b-477e-aedf-736bc777851e",
+        "backgroundColor": "#abd9f5"
+      },
+      "engine": {
+        "type": "github",
+        "repository": "riddlesio/cryptotrader-engine-java"
+      }
+    },
+    "matchWrapperConfiguration": {
+      "maxTimebankDefault": 2000,
+      "timePerMoveDefault": 100,
+      "maxTimeoutsDefault": 0
+    },
+    "configurationItems": [
+      {
+        "id": "dataFile",
+        "type": "string",
+        "description": "Location of the .csv file with candle data"
+      },
+      {
+        "id": "candleInterval",
+        "type": "integer",
+        "description": "The amount of time in seconds between each candle in the data file"
+      },
+      {
+        "id": "initialStack",
+        "type": "integer",
+        "description": "The amount of USDT to start the game with."
+      },
+      {
+        "id": "givenCandles",
+        "type": "integer",
+        "description": "Candles given before the game starts."
+      },
+      {
+        "id": "transactionFeePercent",
+        "type": "integer",
+        "description": "Percentage of fee per transaction."
+      }
+    ]
+  }
+}

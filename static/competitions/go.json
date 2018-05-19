@@ -1,0 +1,33 @@
+{
+  "id": "go",
+  "name": "Go",
+  "description": "Conquer the largest area on the board in this ancient Chinese board game!",
+  "url": "https://playground.riddles.io/competitions/go",
+  "configuration": {
+    "playerCount": 2,
+    "hasSeed": false,
+    "resources": {
+      "matchViewer": {
+        "type": "match",
+        "matchId": "f57be31f-21ec-4eed-b315-f8c64619e595",
+        "backgroundColor": "#abd9f5"
+      },
+      "engine": {
+        "type": "github",
+        "repository": "riddlesio/go-engine"
+      }
+    },
+    "matchWrapperConfiguration": {
+      "maxTimebankDefault": 10000,
+      "timePerMoveDefault": 200,
+      "maxTimeoutsDefault": 0
+    },
+    "configurationItems": [
+      {
+        "id": "maxRounds",
+        "type": "integer",
+        "description": "Max amount of rounds"
+      }
+    ]
+  }
+}

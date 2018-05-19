@@ -1,0 +1,33 @@
+{
+  "id": "light-riders",
+  "name": "Light Riders",
+  "description": "An epic race game that requires smart thinking, rather than speed!",
+  "url": "https://playground.riddles.io/competitions/light-riders",
+  "configuration": {
+    "playerCount": 2,
+    "hasSeed": true,
+    "resources": {
+      "matchViewer": {
+        "type": "match",
+        "matchId": "9900d753-9c9d-4d7d-8f7a-e4fcd8f4ce90",
+        "backgroundColor": "#000000"
+      },
+      "engine": {
+        "type": "github",
+        "repository": "riddlesio/light-riders-engine"
+      }
+    },
+    "matchWrapperConfiguration": {
+      "maxTimebankDefault": 10000,
+      "timePerMoveDefault": 200,
+      "maxTimeoutsDefault": 0
+    },
+    "configurationItems": [
+      {
+        "id": "maxRounds",
+        "type": "integer",
+        "description": "Max amount of rounds"
+      }
+    ]
+  }
+}

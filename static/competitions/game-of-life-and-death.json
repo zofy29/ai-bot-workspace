@@ -1,0 +1,43 @@
+{
+  "id": "game-of-life-and-death",
+  "name": "Game of Life and Death",
+  "description": "Manipulate life and death in order to grow your colony of cells and defeat your opponent!",
+  "url": "https://playground.riddles.io/competitions/game-of-life-and-death",
+  "configuration": {
+    "playerCount": 2,
+    "hasSeed": true,
+    "resources": {
+      "matchViewer": {
+        "type": "match",
+        "matchId": "07daab25-1774-4e19-8d75-f5e7b94a5506",
+        "backgroundColor": "#abd9f5"
+      },
+      "engine": {
+        "type": "github",
+        "repository": "riddlesio/golad-engine"
+      }
+    },
+    "matchWrapperConfiguration": {
+      "maxTimebankDefault": 2000,
+      "timePerMoveDefault": 200,
+      "maxTimeoutsDefault": 0
+    },
+    "configurationItems": [
+      {
+        "id": "maxRounds",
+        "type": "integer",
+        "description": "Max amount of rounds"
+      },
+      {
+        "id": "initialCellsPerPlayer",
+        "type": "integer",
+        "description": "Initial cells per player"
+      },
+      {
+        "id": "separateStartingCells",
+        "type": "integer",
+        "description": "1 for initially separated cells, 0 otherwise"
+      }
+    ]
+  }
+}

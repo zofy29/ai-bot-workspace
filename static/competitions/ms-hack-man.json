@@ -1,0 +1,33 @@
+{
+  "id": "ms-hack-man",
+  "name": "Ms. Hack-Man",
+  "description": "Prepare yourself for the second Hack-man game. More intense and 'explosive' than ever!",
+  "url": "https://booking.riddles.io/competitions/ms.-hack-man",
+  "configuration": {
+    "playerCount": 2,
+    "hasSeed": true,
+    "resources": {
+      "matchViewer": {
+        "type": "match",
+        "matchId": "e86d9ba9-1036-4f0d-b37c-b5abb1c8ccf1",
+        "backgroundColor": "#abd9f5"
+      },
+      "engine": {
+        "type": "github",
+        "repository": "riddlesio/hack-man-2-engine"
+      }
+    },
+    "matchWrapperConfiguration": {
+      "maxTimebankDefault": 2000,
+      "timePerMoveDefault": 100,
+      "maxTimeoutsDefault": 0
+    },
+    "configurationItems": [
+      {
+        "id": "maxRounds",
+        "type": "integer",
+        "description": "Max amount of rounds"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ultimate-tic-tac-toe",
+  "name": "Ultimate Tic Tac Toe",
+  "description": "Tic Tac Toe like you've never seen before. It's a classic with a twist!",
+  "url": "https://playground.riddles.io/competitions/ultimate-tic-tac-toe",
+  "configuration": {
+    "playerCount": 2,
+    "hasSeed": false,
+    "resources": {
+      "matchViewer": {
+        "type": "match",
+        "matchId": "b723c36b-7b6d-4de1-b050-a30a7400ec0b",
+        "backgroundColor": "#ffffff"
+      },
+      "engine": {
+        "type": "github",
+        "repository": "riddlesio/ultimate-tic-tac-toe-engine"
+      }
+    },
+    "matchWrapperConfiguration": {
+      "maxTimebankDefault": 10000,
+      "timePerMoveDefault": 100,
+      "maxTimeoutsDefault": 0
+    },
+    "configurationItems": []
+  }
+}

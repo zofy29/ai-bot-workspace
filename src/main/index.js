@@ -1,13 +1,14 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
 import { app, BrowserWindow } from 'electron';
 import * as path from 'path';
 import * as url from 'url';
 
 const isDevelopment = process.env.NODE_ENV !== 'production';
 
-let mainWindow: BrowserWindow;
+let mainWindow;
 
-function createMainWindow(): BrowserWindow {
-  const window: BrowserWindow = new BrowserWindow({
+function createMainWindow() {
+  const window = new BrowserWindow({
     icon: path.join(__static, '/icon.png'),
     show: false,
   });

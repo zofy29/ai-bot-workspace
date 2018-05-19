@@ -1,0 +1,33 @@
+{
+  "id": "hack-man",
+  "name": "Hack Man",
+  "description": "Navigate HQ, search for code, smash the bugs and beat your opponent!",
+  "url": "https://booking.riddles.io/competitions/hack-man",
+  "configuration": {
+    "playerCount": 2,
+    "hasSeed": true,
+    "resources": {
+      "matchViewer": {
+        "type": "match",
+        "matchId": "ee9984d3-47d7-4c42-8a17-11d13ba1bb70",
+        "backgroundColor": "#abd9f5"
+      },
+      "engine": {
+        "type": "github",
+        "repository": "riddlesio/hack-man-engine"
+      }
+    },
+    "matchWrapperConfiguration": {
+      "maxTimebankDefault": 10000,
+      "timePerMoveDefault": 100,
+      "maxTimeoutsDefault": 2
+    },
+    "configurationItems": [
+      {
+        "id": "maxRounds",
+        "type": "integer",
+        "description": "Max amount of rounds"
+      }
+    ]
+  }
+}
