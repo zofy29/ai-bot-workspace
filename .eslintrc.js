@@ -4,6 +4,7 @@ module.exports = {
     'max-len': 0,
     'import/prefer-default-export': false,
     'vue/max-attributes-per-line': false,
+    "import/no-extraneous-dependencies": false,
   },
   parserOptions: {
     parser: 'babel-eslint',
